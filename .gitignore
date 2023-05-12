@@ -1,0 +1,14 @@
+*.apk
+*.ap_
+*.dex
+*.class
+**/bin/
+**/gen/
+.gradle/
+build/
+local.properties
+**/proguard/
+*.log
+target/
+src/main/java/META-INF/persistence.xml
+src/main/resources/META-INF/persistence.xml

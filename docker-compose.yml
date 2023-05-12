@@ -1,0 +1,30 @@
+version: '3'
+services:
+  webapp:
+    build: .
+    ports:
+            - "159.223.79.247:80:8080"
+    volumes: 
+      - ./:/var/www/app      
+    links:
+      - db
+  db:
+    image: mysql:latest
+    restart: always
+    command: --character-set-server=utf8 --collation-server=utf8_general_ci
+    environment:
+      MYSQL_ROOT_PASSWORD: quanla02@ciuz
+    volumes:
+      - data:/var/lib/mysql
+    ports:
+            - "159.223.79.247:3306:3306"
+  PhpMyAdmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+            - "159.223.79.247:8090:80"
+    links:
+      - db:mysql
+volumes:
+  data:
+

@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/main/java/controller/Page404Controller.java=UTF-8
+encoding//src/main/java/filters/StudentAuthenticationFilter.java=UTF-8
+encoding//src/main/java/repositories/NhanVienRepositories.java=UTF-8
+encoding//src/main/java/services/CNBMService.java=UTF-8
+encoding//src/main/java/services/ExcelService.java=UTF-8
+encoding//src/main/java/services/GiangVienService.java=UTF-8
+encoding//src/main/java/services/LoginService.java=UTF-8
+encoding//src/main/java/services/ManagerNVService.java=UTF-8
+encoding//src/main/java/services/ManagerSVService.java=UTF-8
+encoding//src/main/java/services/PDTService.java=UTF-8
+encoding//src/main/java/services/StudentService.java=UTF-8
+encoding//src/main/java/services/ThamKhaoGVService.java=UTF-8
+encoding//src/main/java/services/ThamKhaoNVService.java=UTF-8
+encoding//src/main/java/services/ThamKhaoSVService.java=UTF-8
